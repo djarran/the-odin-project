@@ -1,0 +1,43 @@
+body {
+  font-family: helvetica;
+  font-size: 15px;
+}
+h1 {
+  font-family: helvetica;
+  text-align: center;
+}
+#description {
+  font-size: 17px;
+  font-weight: normal;
+  font-style: italic;
+}
+label {
+  display:inline-block;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: italic;
+  text-align: left !important;
+  color: blue;
+  margin-bottom: 5px;
+}
+#damn {
+  background-color: #EFEFEF;
+  width: 50%;
+  margin: auto;
+  padding: 15px;
+  border-radius: 10px;
+}
+#survey-form {
+  padding: 5px;
+  background-color: ;
+}
+input#name, input#email, input#number {
+  width: 95%;
+  height: 30px;
+  border-radius: 5px;
+}
+select {
+  width: 96%;
+  height: 35px;
+  border-radius: 5px;
+}
