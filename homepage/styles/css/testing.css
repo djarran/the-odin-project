@@ -19,6 +19,8 @@
 
 }
 
+
+
 #search-bar {
   width: 540px;
   height: 45px;
@@ -95,6 +97,7 @@ button#sign-in {
   border-color: #0066E4;
   margin-top: 9px;
   padding-left: 20px;
+  margin-left: 10px;
   padding-right: 20px;
   font-size: 14px;
 
@@ -140,9 +143,15 @@ button:hover#sign-in {
 
 #app-right {
   position: relative;
-  line-height: 55px;
   float: right;
-  margin-left: 20px;
+  top: 5px;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+#app-right:hover {
+  background-color: #EEEEEE;
+  border-radius: 100%;
 }
 
 
