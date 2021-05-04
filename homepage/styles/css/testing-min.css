@@ -13,7 +13,9 @@
 }
 
 .input-search {
+  display: -webkit-flex;
   display: flex;
+  -webkit-justify-content: center;
   justify-content: center;
   margin-top: 25px;
 
@@ -79,6 +81,7 @@ button.search-buttons {
 .buttons {
   position: relative;
   text-align: center;
+  -webkit-justify-content: center;
   justify-content: center;
 }
 
